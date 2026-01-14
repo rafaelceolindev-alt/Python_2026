@@ -4,7 +4,7 @@ lista = [1, 2, 3, 4, 5]
 
 lista[2]
 
-# %% dicinarios sao pares chave-valor   podemos usar strings, numeros ou tuplas como chaves
+# %% dicinarios sao pares chave-valor   podemos usar strings, numeros ou tuplas como chaves,  desde que sejam imutaveis
 
 dados_rafa = {
     "idade": 25,
@@ -18,7 +18,7 @@ dados_rafa = {
     ],
 }
 
-# %% acessando valores do dicionario
+# %% acessando valores do dicionario sendo
 print(dados_rafa)
 
 print(dados_rafa["formacao"][-1])
