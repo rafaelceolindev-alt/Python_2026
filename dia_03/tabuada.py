@@ -1,4 +1,4 @@
-# %%
+# %% tabuada.py
 
 numero = 2
 
@@ -14,7 +14,7 @@ print("2 x 8 =", numero * 8)
 print("2 x 9 =", numero * 9)
 print("2 x 10 =", numero * 10)
 print("---------------------")    
-# %%
+# %% uma forma melhorada usando loop for
 
 while True:
     entrada = input("Digite um número para ver a tabuada (ou 'sair' para encerrar): ")
@@ -29,7 +29,7 @@ while True:
     for i in range(1, 11):
         print(f"{numero} x {i} = {numero * i}")
     print("---------------------")
-    # %%
+    # %% usando while
 numero = 2
 count = 1
     
